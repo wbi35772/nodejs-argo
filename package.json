@@ -1,12 +1,8 @@
 {
-  "name": "nodejs-proxy-panel",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "Multi-Account Auto Proxy Panel with Watchdog",
+  "description": "This is a node project",
   "main": "index.js",
-  "author": "",
-  "repository": "",
-  "license": "MIT",
-  "private": false,
   "scripts": {
     "dev": "node index.js",
     "start": "while true; do node index.js; sleep 3; done"
