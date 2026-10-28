@@ -1,7 +1,7 @@
 {
-  "name": "nodejs",
-  "version": "1,0,0",
-  "description": "Thsi is a node project",
+  "name": "nodejs-proxy-panel",
+  "version": "1.0.0",
+  "description": "Multi-Account Auto Proxy Panel with Watchdog",
   "main": "index.js",
   "author": "",
   "repository": "",
@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "dev": "node index.js",
-    "start": "node index.js"
+    "start": "while true; do node index.js; sleep 3; done"
   },
   "dependencies": {
     "axios": "latest"
